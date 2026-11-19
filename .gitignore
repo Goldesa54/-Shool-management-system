@@ -1,0 +1,19 @@
+# Dependencies and local environment
+vendor/
+.env
+
+# SQLite database and runtime data
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# VS Code workspace settings
+.vscode/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
